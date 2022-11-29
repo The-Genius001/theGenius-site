@@ -2,24 +2,26 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="{theGenius}">
       <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
+        <h1>
+          <a className="small">GITHUB</a>
+          <a className="small">GAMES</a>
+          <a className="small">HOME</a>
+          <a className="small">PROJECTS</a>
+          <a className="small">WEBAPPS</a>
+        </h1>
+   
         <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
+          
         </p>
         <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
+         
         </p>
         <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          
+
+          
         </p>
       </header>
     </div>
