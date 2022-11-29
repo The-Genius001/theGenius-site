@@ -29,7 +29,27 @@
 .small {
   font-size: 0.75rem;
 }
+h1{
+  text-align: center;
+  position:fixed;
+  top: 0;
+  overflow: hidden;
+  width:100%;
+  border-bottom:5px;
+  border-color: #414141;
+}
 a{
-  
   margin:70px;
+  font-size: inherit;
+  transition:  font-size 0.3s;
+}
+a:hover{
+  font-size: medium;
+}
+.t{
+  font-size: 35px;
+  transition:font-size 0.5s;
+}
+.t:hover{
+  font-size:50px;
 }
