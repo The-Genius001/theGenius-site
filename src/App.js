@@ -16,6 +16,7 @@ function App() {
         <p>
           "simply genius"
         </p>
+        <a className="small" href=L>Projects</a>
         <p className="small">
          
         </p>
