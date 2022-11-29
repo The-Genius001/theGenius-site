@@ -14,7 +14,7 @@ function App() {
         </h1>
         <h2 className="t">theGenius</h2>
         <p>
-          
+          "simply genius"
         </p>
         <p className="small">
          
