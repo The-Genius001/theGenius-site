@@ -1,10 +1,18 @@
 import './App.css';
 
 function App() {
+  var i=0;
+  
+  
   return (
     <div className="{theGenius}">
       <header className="App-header">
         <title>theGenius</title>
+        <style>
+          .t{
+            
+          }
+        </style>
         <h1>
           <a className="small" href="">GITHUB</a>
           <a className="small" href="">GAMES</a>
@@ -16,7 +24,7 @@ function App() {
         <p>
           "simply genius"
         </p>
-        <a className="small" href=L>Projects</a>
+        <a className="small" href="l">Projects</a>
         <p className="small">
          
         </p>
