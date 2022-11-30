@@ -2,16 +2,17 @@ import './App.css';
 
 function App() {
   var i=0;
-  
+    if(i<1){
+      i=i+0.1;
+
+    }
   
   return (
     <div className="{theGenius}">
       <header className="App-header">
         <title>theGenius</title>
         <style>
-          .t{
-            
-          }
+          
         </style>
         <h1>
           <a className="small" href="">GITHUB</a>
@@ -20,7 +21,7 @@ function App() {
           <a className="small" href="">PROJECTS</a>
           <a className="small" href="">WEBAPPS</a>
         </h1>
-        <h2 className="t">theGenius</h2>
+        <h2 className="t">theGenius style={{opacity:1}}</h2>
         <p>
           "simply genius"
         </p>

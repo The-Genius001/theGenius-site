@@ -51,6 +51,7 @@ a:hover{
 .t{
   font-size: 75px;
   transition:font-size 0.5s;
+  
 }
 .t:hover{
   font-size:85px;
