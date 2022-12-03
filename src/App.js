@@ -1,11 +1,7 @@
 import './App.css';
 
 function App() {
-  var i=0;
-    if(i<1){
-      i=i+0.1;
-
-    }
+  
   
   return (
     <div className="{theGenius}">
@@ -21,19 +17,26 @@ function App() {
           <a className="small" href="">PROJECTS</a>
           <a className="small" href="">WEBAPPS</a>
         </h1>
-        <h2 className="t">theGenius style={{opacity:1}}</h2>
+        
+        <h2 className="t">theGenius</h2>
         <p>
           "simply genius"
         </p>
+        
         <a className="small" href="l">Projects</a>
-        <p className="small">
-         
-        </p>
-        <p>
-          
+      
+          <h2 className="t"> UKNOWN DEAPTHS</h2>
+          <p>
+            A game about exploration and mystery
+          </p>
+          <a className="small" href="l">UNKNOWN DEAPTHS</a>
 
-          
+          <h2 className="t">NEWS</h2>
+        <p>
+          see updates on all of my projects that I am doing rn.
         </p>
+        
+        <a className="small" href="l">GO THERE</a>
       </header>
     </div>
   );

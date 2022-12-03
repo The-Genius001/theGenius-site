@@ -29,18 +29,24 @@
 .small {
   font-size: 0.75rem;
 }
+header{
+  padding-top: 100px;
+}
 h1{
-  text-align: center;
-  position:fixed;
+  background-color: #282c34;
+  position: fixed;
   top: 0;
+  
+  text-align: center;
   overflow: hidden;
   width:100%;
-  border-bottom:5px;
-  border-color: #414141;
+  
+  padding:0px;
 }
 a{
-  color:rgb(81, 81, 139);
+  color:rgb(181, 181, 209);
   text-decoration: none;
+  outline-color: aliceblue;
   margin:70px;
   font-size: inherit;
   transition:  font-size 0.3s;
@@ -52,7 +58,4 @@ a:hover{
   font-size: 75px;
   transition:font-size 0.5s;
   
-}
-.t:hover{
-  font-size:85px;
 }
