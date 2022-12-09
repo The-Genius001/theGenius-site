@@ -11,11 +11,11 @@ function App() {
           
         </style>
         <h1>
-          <a className="small" >GITHUB</a>
-          <a className="small" onClick={ud()}>GAMES</a>
-          <a className="small" >HOME</a>
-          <a className="small" >PROJECTS</a>
-          <a className="small" >WEBAPPS</a>
+          <button>GAMES</button>
+          <button>PROJECTS</button>
+          <button>HOME</button>
+          <button>APPS</button>
+          <button>NEWS</button>
         </h1>
         
         <h2 className="t">theGenius</h2>
@@ -23,7 +23,7 @@ function App() {
           "simply genius"
         </p>
         
-        <a className="small" href="l">Projects</a>
+        <button> EXPLORE</button>
       
           <h2 className="t"> UKNOWN DEAPTHS</h2>
           <p>
@@ -36,7 +36,7 @@ function App() {
           see updates on all of my projects that I am doing rn.
         </p>
         
-        <a className="small" href="l">GO THERE</a>
+        <button>GO THERE</button>
       </header>
     </div>
   );

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-top: 100px;
 }
 
 .App-logo {
@@ -29,9 +30,8 @@
 .small {
   font-size: 0.75rem;
 }
-header{
-  padding-top: 100px;
-}
+
+
 h1{
   background-color: #282c34;
   position: fixed;
@@ -40,8 +40,8 @@ h1{
   text-align: center;
   overflow: hidden;
   width:100%;
-  
-  padding:0px;
+  padding-top:0px;
+
 }
 a{
   color:rgb(181, 181, 209);
@@ -59,3 +59,4 @@ a:hover{
   transition:font-size 0.5s;
   
 }
+
