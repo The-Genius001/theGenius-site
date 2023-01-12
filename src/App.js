@@ -1,22 +1,24 @@
 import './App.css';
 var page;
+function pageapp(){
+ 
+return(0);
+}
 function App() {
   if (page="home"||page==""){
   
   return (
-    <div className="{theGenius}">
+    <div className="theGenius">
       <header className="App-header">
         <title>theGenius</title>
-        <style>
-          
-        </style>
-        <h1>
+        
+        <div className="header">
           <button>GAMES</button>
           <button>PROJECTS</button>
           <button>HOME</button>
-          <button>APPS</button>
+          <button onClick={pageapp}>APPS</button>
           <button>NEWS</button>
-        </h1>
+        </div>
         
         <h2 className="t">theGenius</h2>
         <p>
